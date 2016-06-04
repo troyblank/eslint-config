@@ -2,7 +2,7 @@
 
 This is a central location to keep eslinting shared amongst all of the projects.
 
-### USAGE
+### Usage
 In your root `.eslintrc.json`, extend the `es6.js` ruleset:
 
 ```
