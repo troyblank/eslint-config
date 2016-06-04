@@ -1,5 +1,5 @@
 {
-    "name": "troyblank-eslint-config",
+    "name": "@troyblank/eslint-config-troyblank",
     "version": "0.1.0",
     "description": "Shared eslint rules.",
     "repository": {
