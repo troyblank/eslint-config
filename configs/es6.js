@@ -20,6 +20,7 @@ module.exports = {
         indent: [2, 4],
         'one-var': ['error', { uninitialized: 'always', initialized: 'never' }],
         'one-var-declaration-per-line': ['error', 'initializations'],
+        'max-len': 'off',
         'new-cap': 'error',
         'no-console': 'error',
         'no-self-compare': 'error',
