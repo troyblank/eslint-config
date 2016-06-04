@@ -7,7 +7,7 @@
         "url": "ssh://git@github.com:troyblank/eslint-config.git"
     },
     "scripts": {
-        "lint": "eslint ./test/test.js"
+        "test": "eslint ./test/test.js"
     },
     "devDependencies": {
         "eslint": "2.11.1"
