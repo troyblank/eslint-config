@@ -6,7 +6,7 @@ This is a central location to keep eslinting shared amongst all of the projects.
 
 ## Requirements
 
-* npm >= 3.8.3
+* Node: 5.10.1
 
 ### Usage
 In your root `.eslintrc.json`, extend the `es6.js` ruleset:
