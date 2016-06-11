@@ -1,11 +1,14 @@
 {
     "name": "@troyblank/eslint-config-troyblank",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Shared eslint rules.",
     "repository": {
         "type": "git",
         "url": "ssh://git@github.com:troyblank/eslint-config.git"
     },
+    "files": [
+        "configs"
+    ],
     "scripts": {
         "test": "eslint ./test/test.js"
     },
