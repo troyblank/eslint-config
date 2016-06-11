@@ -1,6 +1,6 @@
 {
     "name": "@troyblank/eslint-config-troyblank",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Shared eslint rules.",
     "repository": {
         "type": "git",

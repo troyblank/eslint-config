@@ -19,4 +19,4 @@ In your root `.eslintrc.json`, extend the `es6.js` ruleset:
 
 ### Test
 
-    npm run lint
+    npm run test
