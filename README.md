@@ -17,6 +17,14 @@ In your root `.eslintrc.json`, extend the `es6.js` ruleset:
 }
 ```
 
+For any subfolder that uses react you can also include an `.eslintrc.json` that extends the `react.js` ruleset:
+
+```
+{
+    "extends": "@troyblank/eslint-config-troyblank/configs/react.js"
+}
+```
+
 ### Test
 
     npm test
