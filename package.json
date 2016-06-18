@@ -1,6 +1,6 @@
 {
     "name": "@troyblank/eslint-config-troyblank",
-    "version": "0.3.1",
+    "version": "0.4.0",
     "description": "Shared eslint rules.",
     "repository": {
         "type": "git",
@@ -10,14 +10,18 @@
         "configs"
     ],
     "scripts": {
-        "test": "eslint ./test/test.js"
+        "test": "eslint ./test/es6/test.js && eslint ./test/react/test.js"
     },
     "devDependencies": {
-        "eslint": "2.11.1"
+        "eslint": "2.11.1",
+        "react": "15.1.0",
+        "react-dom": "15.1.0"
     },
     "dependencies": {
         "babel-eslint": "6.0.4",
+        "eslint-config-airbnb": "9.0.1",
         "eslint-config-airbnb-base": "3.0.1",
-        "eslint-plugin-import": "1.8.1"
+        "eslint-plugin-import": "1.8.1",
+        "eslint-plugin-react": "5.2.2"
     }
 }
