@@ -14,6 +14,9 @@ module.exports = {
         'eslint-config-airbnb-base',
         'eslint-config-airbnb-base/rules/strict'
     ],
+    plugins: [
+        'json'
+    ],
     rules: {
         'comma-dangle': ['error', 'never'],
         'handle-callback-err': 'error',
