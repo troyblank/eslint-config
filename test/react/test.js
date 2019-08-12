@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Button from './components/button';
+import Simple from './components/simple';
+import Pure from './components/pure';
 
-ReactDOM.render(<Button />, document.querySelector('#main'));
+ReactDOM.render(<Simple />, document.querySelector('#main'));
+ReactDOM.render(<Pure />, document.querySelector('#main'));
