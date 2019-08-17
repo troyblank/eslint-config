@@ -4,17 +4,26 @@ export default class Pure extends PureComponent {
     helloText = 'hello world';
     somethignElse = {};
 
+    state = {
+        greeting: this.props.greeting
+    }
+
     componentDidMount() {
         this.sayHello();
     }
 
-    sayHello() {
-        return this.helloText;
+    sayHello = () => {
+        this.setState({ greeting: this.helloText });
     }
 
     render() {
+        const { greeting } = this.state;
+
         return (
-          <div />
+          <x>
+            <p>{ greeting }</p>
+            <button onClick={this.sayHello} />
+          </x>
         );
     }
 }

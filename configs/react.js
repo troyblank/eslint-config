@@ -9,6 +9,7 @@ module.exports = {
         'react/display-name': 'error',
         'react/jsx-boolean-value': ['error', 'always'],
         'react/jsx-curly-brace-presence': 0,
+        'react/destructuring-assignment': [2, 'always', { 'ignoreClassFields': true }],
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
         'react/jsx-key': 'error',
         'react/jsx-no-duplicate-props': 2,
