@@ -22,6 +22,8 @@ export default class Pure extends PureComponent {
         return (
           <x>
             <p>{ greeting }</p>
+            <p dangerouslySetInnerHTML={{ __html: greeting }} />
+            <p {...greeting} />
             <button onClick={this.sayHello} />
           </x>
         );
