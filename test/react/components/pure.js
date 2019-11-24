@@ -4,8 +4,14 @@ export default class Pure extends PureComponent {
     helloText = 'hello world';
     somethignElse = {};
 
-    state = {
-        greeting: this.props.greeting
+    constructor(props) {
+        super(props);
+
+        const { greeting } = this.props;
+
+        this.state = {
+            greeting
+        };
     }
 
     componentDidMount() {
