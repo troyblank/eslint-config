@@ -12,7 +12,8 @@
     "scripts": {
         "test": "npm run typescript && npm run eslint",
         "typescript": "tsc",
-        "eslint": "eslint ./test/es6/test.js && eslint ./test/react/test.js && eslint ./test/react/components/*.js && eslint ./test/typescript/test.ts && eslint *.json"
+        "eslint": "eslint ./test/es6/test.js && eslint ./test/react/test.js && eslint ./test/react/components/*.js && npm run lintTypescript && eslint *.json",
+        "lintTypescript": "eslint ./test/typescript/test.ts && eslint ./test/typescriptReact/test.tsx"
     },
     "devDependencies": {
         "react": "16.12.0",
