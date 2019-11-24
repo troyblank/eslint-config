@@ -1,6 +1,8 @@
 import Person from './person';
 
 class Developer extends Person {
+    languages: string[];
+
     constructor(name, age, ...languages) {
         super(name, age);
         this.languages = [...languages];
