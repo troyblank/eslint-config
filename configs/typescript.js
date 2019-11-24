@@ -4,10 +4,10 @@ module.exports = {
         './es6.js'
     ],
     settings: {
-        "import/resolver": {
-          "node": {
-            "extensions": [".js", ".jsx", ".ts", ".tsx"]
-          }
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.ts', '.tsx']
+            }
         }
     }
 };
