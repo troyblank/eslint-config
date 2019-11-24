@@ -1,6 +1,6 @@
 {
     "name": "@troyblank/eslint-config-troyblank",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Shared eslint rules.",
     "repository": {
         "type": "git",
@@ -10,13 +10,17 @@
         "configs"
     ],
     "scripts": {
-        "test": "eslint ./test/es6/test.js && eslint ./test/react/test.js && eslint ./test/react/components/*.js && eslint *.json"
+        "test": "npm run typescript && npm run eslint",
+        "typescript": "tsc",
+        "eslint": "eslint ./test/es6/test.js && eslint ./test/react/test.js && eslint ./test/react/components/*.js && eslint ./test/typescript/test.ts && eslint *.json"
     },
     "devDependencies": {
         "react": "16.12.0",
-        "react-dom": "16.12.0"
+        "react-dom": "16.12.0",
+        "typescript": "3.7.2"
     },
     "dependencies": {
+        "@typescript-eslint/parser": "2.8.0",
         "babel-eslint": "10.0.3",
         "eslint": "6.7.0",
         "eslint-config-airbnb": "18.0.1",
