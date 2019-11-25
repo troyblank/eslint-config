@@ -12,6 +12,7 @@ module.exports = {
         'react/jsx-curly-brace-presence': 0,
         'react/destructuring-assignment': [2, 'always', { 'ignoreClassFields': true }],
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.tsx'] }],
+        'react/jsx-fragments': [2, 'element'],
         'react/jsx-key': 'error',
         'react/jsx-no-duplicate-props': 2,
         'react/jsx-no-undef': 'error',

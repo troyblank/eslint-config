@@ -26,12 +26,12 @@ export default class Pure extends PureComponent {
         const { greeting } = this.state;
 
         return (
-          <x>
+          <React.Fragment>
             <p>{ greeting }</p>
             <p dangerouslySetInnerHTML={{ __html: greeting }} />
             <p {...greeting} />
             <button onClick={this.sayHello} />
-          </x>
+          </React.Fragment>
         );
     }
 }
