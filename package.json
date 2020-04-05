@@ -1,6 +1,6 @@
 {
     "name": "@troyblank/eslint-config-troyblank",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Shared eslint rules.",
     "repository": {
         "type": "git",
@@ -12,7 +12,11 @@
     "scripts": {
         "test": "npm run typescript && npm run eslint",
         "typescript": "tsc",
-        "eslint": "eslint ./test/es6/test.js && eslint ./test/react/test.js && eslint ./test/react/components/*.js && npm run lintTypescript && eslint *.json",
+        "eslint": "npm run eslintES6 && npm run eslintReact && npm run eslintJSON && npm run eslintJest && npm run lintTypescript",
+        "eslintES6": "eslint ./test/es6/test.js",
+        "eslintReact": "eslint ./test/react/test.js && eslint ./test/react/components/*.js",
+        "eslintJSON": "eslint *.json",
+        "eslintJest": "eslint ./test/jest/*.js",
         "lintTypescript": "eslint ./test/typescript/test.ts && eslint ./test/typescriptReact/test.tsx"
     },
     "devDependencies": {
