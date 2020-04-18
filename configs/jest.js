@@ -8,5 +8,8 @@ module.exports = {
         expect: true,
         jest: true,
         test: true
+    },
+    rules: {
+        'import/no-cycle': 0
     }
 };

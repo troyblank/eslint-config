@@ -1,5 +1,6 @@
 module.exports = {
     parser: '@typescript-eslint/parser',
+    plugins: ['@typescript-eslint'],
     extends: [
         './es6.js'
     ],
@@ -9,5 +10,10 @@ module.exports = {
                 extensions: ['.js', '.jsx', '.ts', '.tsx']
             }
         }
+    },
+    rules: {
+        'import/extensions': 'off',
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': ['error']
     }
 };

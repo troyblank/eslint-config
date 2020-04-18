@@ -20,7 +20,7 @@ module.exports = {
     rules: {
         'comma-dangle': [2, 'never'],
         'handle-callback-err': 2,
-        indent: [2, 4, { 'ignoredNodes': ['JSXElement *', 'JSXElement'] }],
+        indent: [2, 4, { ignoredNodes: ['JSXElement *', 'JSXElement'] }],
         'lines-between-class-members': 0,
         'object-curly-newline': 0,
         'one-var': [0, { uninitialized: 'always', initialized: 'never' }],
