@@ -4,16 +4,16 @@
 
 This is a central location to keep eslinting shared amongst all of the projects.
 
-## Requirements
-
-* Node: 5.10.1
+## Global Requirements
+* nvm
 
 ### Usage
-In your root `.eslintrc.json`, extend the `es6.js` ruleset:
+In your root `.eslintrc.json`, extend the `typescript.js` or `es6.js` and `jest.js` ruleset:
 
 ```
 {
-    "extends": "@troyblank/eslint-config-troyblank/configs/es6.js"
+    "extends": "@troyblank/eslint-config-troyblank/configs/typescript.js",
+    "extends": "@troyblank/eslint-config-troyblank/configs/jest.js",
 }
 ```
 
