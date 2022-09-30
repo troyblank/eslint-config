@@ -1,23 +1,23 @@
-import * as foos from './foo';
+import * as foos from './foo'
 
 describe('foo', () => {
     beforeEach(() => {
-        foos.foo();
-    });
+        foos.foo()
+    })
 
     afterEach(() => {
-        jest.restoreAllMocks();
-    });
+        jest.restoreAllMocks()
+    })
 
     test('can call bar from foo', () => {
-        jest.spyOn(foos, 'bar').mockImplementation(() => {});
+        jest.spyOn(foos, 'bar').mockImplementation(() => {})
 
-        foos.foo();
+        foos.foo()
 
-        expect(foos.bar).toHaveBeenCalledTimes(1);
-    });
+        expect(foos.bar).toHaveBeenCalledTimes(1)
+    })
 
     test('bar should return bar', () => {
-        expect(foos.bar()).toBe('bar');
-    });
-});
+        expect(foos.bar()).toBe('bar')
+    })
+})

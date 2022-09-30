@@ -1,7 +1,6 @@
 module.exports = {
     extends: [
         './es6.js',
-        'eslint-config-airbnb/rules/react'
     ],
     rules: {
         'jsx-quotes': 'error',

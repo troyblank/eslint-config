@@ -1,15 +1,15 @@
-import Person from './person';
+import Person from './person'
 
 class Developer extends Person {
     constructor(name, age, ...languages) {
-        super(name, age);
-        this.languages = [...languages];
+        super(name, age)
+        this.languages = [...languages]
     }
 
     printLanguages() {
-        return this.languages;
+        return this.languages
     }
 }
 
-const me = new Developer('Troy', 32, 'ES5', 'ES6');
-me.printLanguages();
+const me = new Developer('Troy', 32, 'ES5', 'ES6')
+me.printLanguages()
