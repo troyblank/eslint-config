@@ -2,23 +2,23 @@ import Person from './person'
 import { Pet } from './types'
 
 class Developer extends Person {
-    languages: string[]
-    pet: Pet
+	languages: string[]
+	pet: Pet
 
-    constructor(name, age, ...languages) {
-        super(name, age)
+	constructor(name, age, ...languages) {
+		super(name, age)
 
-        this.languages = [...languages]
-        this.pet = { name: 'bucky', type: 'chameleon' }
-    }
+		this.languages = [...languages]
+		this.pet = { name: 'bucky', type: 'chameleon' }
+	}
 
-    printLanguages() {
-        return this.languages
-    }
+	printLanguages() {
+		return this.languages
+	}
 
-    printPet() {
-        return this.pet
-    }
+	printPet() {
+		return this.pet
+	}
 }
 
 const me = new Developer('Troy', 32, 'ES5', 'ES6')

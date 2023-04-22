@@ -1,8 +1,13 @@
 {
-    "extends": [ "./configs/es6.js" ],
+	"extends": [
+		"./configs/es6.js"
+	],
 	"parserOptions": {
 		"ecmaVersion": 2019,
 		"sourceType": "module",
-		"project": ["./tsconfig.json", "./tsconfig.eslint.json"]
+		"project": [
+			"./tsconfig.json",
+			"./tsconfig.eslint.json"
+		]
 	}
 }

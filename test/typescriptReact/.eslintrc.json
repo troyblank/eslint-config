@@ -1,6 +1,6 @@
 {
-    "extends": [
-        "../../configs/react.js",
-        "../../configs/typescript.js"
-    ]
+	"extends": [
+		"../../configs/react.js",
+		"../../configs/typescript.js"
+	]
 }
