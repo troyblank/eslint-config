@@ -1,4 +1,4 @@
 export type Pet = {
-    name: string,
-    type: string
+	name: string,
+	type: string
 }
