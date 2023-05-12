@@ -1,6 +1,10 @@
 module.exports = {
 	extends: [
 		'./es6.js',
+		'plugin:jest-dom/recommended',
+		'plugin:react/recommended',
+		'plugin:react-hooks/recommended',
+		'plugin:jsx-a11y/recommended',
 	],
 	rules: {
 		'jsx-quotes': 'error',
