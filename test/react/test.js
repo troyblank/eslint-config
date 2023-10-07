@@ -1,5 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from "react-dom/client"
 import Simple from './components/simple'
 
-ReactDOM.render(<Simple />, document.querySelector('#main'))
+const { render } = createRoot(document.querySelector('#main'))
+
+render(<Simple />)

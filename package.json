@@ -1,6 +1,6 @@
 {
 	"name": "@troyblank/eslint-config-troyblank",
-	"version": "2.2.0",
+	"version": "2.2.1",
 	"description": "Shared eslint rules.",
 	"repository": {
 		"type": "git",
@@ -22,18 +22,18 @@
 	"devDependencies": {
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"typescript": "5.0.4"
+		"typescript": "5.2.2"
 	},
 	"dependencies": {
-		"@typescript-eslint/parser": "5.59.0",
-		"@typescript-eslint/eslint-plugin": "5.59.0",
-		"eslint": "8.39.0",
-		"eslint-plugin-import": "2.27.5",
+		"@typescript-eslint/parser": "5.62.0",
+		"@typescript-eslint/eslint-plugin": "5.62.0",
+		"eslint": "8.51.0",
+		"eslint-plugin-import": "2.28.1",
 		"eslint-plugin-jest-dom": "4.0.3",
 		"eslint-plugin-json": "3.1.0",
 		"eslint-plugin-jsx-a11y": "6.7.1",
-		"eslint-plugin-react": "7.32.2",
+		"eslint-plugin-react": "7.33.2",
 		"eslint-plugin-react-hooks": "4.6.0",
-		"eslint-plugin-testing-library": "5.10.3"
+		"eslint-plugin-testing-library": "5.11.1"
 	}
 }
