@@ -1,6 +1,6 @@
 {
 	"name": "@troyblank/eslint-config-troyblank",
-	"version": "2.3.0",
+	"version": "2.4.0",
 	"packageManager": "yarn@3.4.1",
 	"description": "Shared eslint rules.",
 	"repository": {
